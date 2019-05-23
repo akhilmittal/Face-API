@@ -8,7 +8,7 @@ import 'rxjs/add/observable/of';
 @Injectable()
 export class FaceApiService {
 
-  private baseUrl = 'https://centralindia.api.cognitive.microsoft.com/face/v1.0';
+  private baseUrl = '<base url>';
 
   constructor(private http: HttpClient) { }
 
@@ -127,6 +127,6 @@ export class FaceApiService {
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': '1813e6cb38f34bf6bdb3caa4e31d60bc'
+    'Ocp-Apim-Subscription-Key': '<key>'
   })
 };
